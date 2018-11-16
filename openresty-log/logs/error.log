@@ -1,0 +1,21 @@
+2018/11/16 15:15:09 [notice] 11501#1132780: using the "kqueue" event method
+2018/11/16 15:15:09 [notice] 11501#1132780: start worker processes
+2018/11/16 15:15:09 [notice] 11501#1132780: start worker process 11728
+2018/11/16 15:15:09 [notice] 11501#1132780: signal 23 (SIGIO) received
+2018/11/16 15:15:09 [notice] 11501#1132780: signal 23 (SIGIO) received
+2018/11/16 15:15:09 [notice] 11501#1132780: signal 20 (SIGCHLD) received from 11650
+2018/11/16 15:15:09 [notice] 11501#1132780: worker process 11650 exited with code 0
+2018/11/16 15:15:09 [notice] 11501#1132780: signal 23 (SIGIO) received
+2018/11/16 15:15:09 [notice] 11501#1132780: signal 23 (SIGIO) received from 11728
+2018/11/16 15:15:10 [error] 11728#1132780: *4 [lua] content_by_lua(nginx.conf:19):5: num:55, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2018/11/16 15:15:10 [info] 11728#1132780: *4 [lua] content_by_lua(nginx.conf:19):6:  string:string, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2018/11/16 15:15:10 [notice] 11728#1132780: *4 [lua] content_by_lua(nginx.conf:19):7: i am print, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2018/11/16 15:15:10 [error] 11728#1132780: *4 [lua] content_by_lua(nginx.conf:19):8:  object:nil, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2018/11/16 15:15:10 [info] 11728#1132780: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 15:28:31 [notice] 11501#1132780: signal 15 (SIGTERM) received from 11805, exiting
+2018/11/16 15:28:31 [notice] 11728#1132780: exiting
+2018/11/16 15:28:31 [notice] 11501#1132780: signal 23 (SIGIO) received from 11728
+2018/11/16 15:28:31 [notice] 11728#1132780: exit
+2018/11/16 15:28:31 [notice] 11501#1132780: signal 20 (SIGCHLD) received from 11728
+2018/11/16 15:28:31 [notice] 11501#1132780: worker process 11728 exited with code 0
+2018/11/16 15:28:31 [notice] 11501#1132780: exit
