@@ -1,0 +1,232 @@
+2018/11/16 17:48:11 [info] 17676#1626436: *10 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 17:49:48 [notice] 16406#1626436: signal 1 (SIGHUP) received from 17739, reconfiguring
+2018/11/16 17:49:48 [notice] 16406#1626436: reconfiguring
+2018/11/16 17:49:48 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 17:49:48 [notice] 16406#1626436: start worker processes
+2018/11/16 17:49:48 [notice] 16406#1626436: start worker process 17741
+2018/11/16 17:49:48 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 17:49:48 [notice] 17676#1626436: gracefully shutting down
+2018/11/16 17:49:48 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 17:49:48 [notice] 17676#1626436: exiting
+2018/11/16 17:49:48 [notice] 17676#1626436: exit
+2018/11/16 17:49:48 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 17676
+2018/11/16 17:49:48 [notice] 16406#1626436: worker process 17676 exited with code 0
+2018/11/16 17:49:48 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 17:49:48 [notice] 16406#1626436: signal 23 (SIGIO) received from 17741
+2018/11/16 17:49:49 [error] 17741#1626436: *11 kevent() reported that connect() failed (61: Connection refused), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/16 17:49:49 [info] 17741#1626436: *11 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 17:59:18 [notice] 16406#1626436: signal 1 (SIGHUP) received from 17963, reconfiguring
+2018/11/16 17:59:18 [notice] 16406#1626436: reconfiguring
+2018/11/16 17:59:18 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 17:59:18 [notice] 16406#1626436: start worker processes
+2018/11/16 17:59:18 [notice] 16406#1626436: start worker process 17965
+2018/11/16 17:59:18 [notice] 17741#1626436: gracefully shutting down
+2018/11/16 17:59:18 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 17:59:18 [notice] 17741#1626436: exiting
+2018/11/16 17:59:18 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 17:59:18 [notice] 17741#1626436: exit
+2018/11/16 17:59:18 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 17741
+2018/11/16 17:59:18 [notice] 16406#1626436: worker process 17741 exited with code 0
+2018/11/16 17:59:18 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 17:59:18 [notice] 16406#1626436: signal 23 (SIGIO) received from 17965
+2018/11/16 17:59:19 [info] 17965#1626436: *13 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:06:29 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18014, reconfiguring
+2018/11/16 18:06:29 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:06:29 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:06:29 [notice] 16406#1626436: start worker processes
+2018/11/16 18:06:29 [notice] 16406#1626436: start worker process 18016
+2018/11/16 18:06:30 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:06:30 [notice] 17965#1626436: gracefully shutting down
+2018/11/16 18:06:30 [notice] 17965#1626436: exiting
+2018/11/16 18:06:30 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:06:30 [notice] 17965#1626436: exit
+2018/11/16 18:06:30 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 17965
+2018/11/16 18:06:30 [notice] 16406#1626436: worker process 17965 exited with code 0
+2018/11/16 18:06:30 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:06:30 [notice] 16406#1626436: signal 23 (SIGIO) received from 18016
+2018/11/16 18:06:36 [error] 18016#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:06:46 [error] 18016#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:06:56 [error] 18016#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:07:01 [info] 18016#1626436: *14 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:07:39 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18048, reconfiguring
+2018/11/16 18:07:39 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:07:39 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:07:39 [notice] 16406#1626436: start worker processes
+2018/11/16 18:07:39 [notice] 16406#1626436: start worker process 18050
+2018/11/16 18:07:39 [notice] 18016#1626436: gracefully shutting down
+2018/11/16 18:07:39 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:07:39 [notice] 18016#1626436: exiting
+2018/11/16 18:07:39 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:07:39 [notice] 18016#1626436: exit
+2018/11/16 18:07:39 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18016
+2018/11/16 18:07:39 [notice] 16406#1626436: worker process 18016 exited with code 0
+2018/11/16 18:07:39 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:07:39 [notice] 16406#1626436: signal 23 (SIGIO) received from 18050
+2018/11/16 18:08:10 [info] 18050#1626436: *17 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:08:28 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18095, reconfiguring
+2018/11/16 18:08:28 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:08:28 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:08:28 [notice] 16406#1626436: start worker processes
+2018/11/16 18:08:28 [notice] 16406#1626436: start worker process 18097
+2018/11/16 18:08:28 [notice] 18050#1626436: gracefully shutting down
+2018/11/16 18:08:28 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:08:28 [notice] 18050#1626436: exiting
+2018/11/16 18:08:28 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:08:28 [notice] 18050#1626436: exit
+2018/11/16 18:08:28 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18050
+2018/11/16 18:08:28 [notice] 16406#1626436: worker process 18050 exited with code 0
+2018/11/16 18:08:28 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:08:28 [notice] 16406#1626436: signal 23 (SIGIO) received from 18097
+2018/11/16 18:08:28 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:08:29 [info] 18097#1626436: *20 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:08:44 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18135, reconfiguring
+2018/11/16 18:08:44 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:08:44 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:08:44 [notice] 16406#1626436: start worker processes
+2018/11/16 18:08:44 [notice] 16406#1626436: start worker process 18137
+2018/11/16 18:08:44 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:08:44 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:08:44 [notice] 18097#1626436: gracefully shutting down
+2018/11/16 18:08:44 [notice] 18097#1626436: exiting
+2018/11/16 18:08:44 [notice] 18097#1626436: exit
+2018/11/16 18:08:44 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18097
+2018/11/16 18:08:44 [notice] 16406#1626436: worker process 18097 exited with code 0
+2018/11/16 18:08:44 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:08:44 [notice] 16406#1626436: signal 23 (SIGIO) received from 18137
+2018/11/16 18:09:15 [info] 18137#1626436: *21 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:09:18 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18176, reconfiguring
+2018/11/16 18:09:18 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:09:18 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:09:18 [notice] 16406#1626436: start worker processes
+2018/11/16 18:09:18 [notice] 16406#1626436: start worker process 18178
+2018/11/16 18:09:18 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:09:18 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:09:18 [notice] 18137#1626436: gracefully shutting down
+2018/11/16 18:09:18 [notice] 18137#1626436: exiting
+2018/11/16 18:09:18 [notice] 18137#1626436: exit
+2018/11/16 18:09:18 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18137
+2018/11/16 18:09:18 [notice] 16406#1626436: worker process 18137 exited with code 0
+2018/11/16 18:09:18 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:09:18 [notice] 16406#1626436: signal 23 (SIGIO) received from 18178
+2018/11/16 18:09:24 [error] 18178#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:09:34 [error] 18178#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:09:44 [error] 18178#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:09:49 [info] 18178#1626436: *24 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:10:05 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18209, reconfiguring
+2018/11/16 18:10:05 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:10:05 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:10:05 [notice] 16406#1626436: start worker processes
+2018/11/16 18:10:05 [notice] 16406#1626436: start worker process 18210
+2018/11/16 18:10:05 [notice] 18178#1626436: gracefully shutting down
+2018/11/16 18:10:05 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:10:05 [notice] 18178#1626436: exiting
+2018/11/16 18:10:05 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:10:05 [notice] 18178#1626436: exit
+2018/11/16 18:10:05 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18178
+2018/11/16 18:10:05 [notice] 16406#1626436: worker process 18178 exited with code 0
+2018/11/16 18:10:05 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:10:05 [notice] 16406#1626436: signal 23 (SIGIO) received from 18210
+2018/11/16 18:10:07 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/11/16 18:10:12 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:10:17 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/11/16 18:10:22 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:10:27 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/11/16 18:10:32 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:10:37 [info] 18210#1626436: *27 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:17:13 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:17:18 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/11/16 18:17:23 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:17:28 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/11/16 18:17:33 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: [::1]:3306
+2018/11/16 18:17:38 [error] 18210#1626436: recv() failed (61: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/11/16 18:17:43 [info] 18210#1626436: *30 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:20:35 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18492, reconfiguring
+2018/11/16 18:20:35 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:20:35 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:20:35 [notice] 16406#1626436: start worker processes
+2018/11/16 18:20:35 [notice] 16406#1626436: start worker process 18494
+2018/11/16 18:20:36 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:20:36 [notice] 18210#1626436: gracefully shutting down
+2018/11/16 18:20:36 [notice] 18210#1626436: exiting
+2018/11/16 18:20:36 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:20:36 [notice] 18210#1626436: exit
+2018/11/16 18:20:36 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18210
+2018/11/16 18:20:36 [notice] 16406#1626436: worker process 18210 exited with code 0
+2018/11/16 18:20:36 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:20:36 [notice] 16406#1626436: signal 23 (SIGIO) received from 18494
+2018/11/16 18:20:38 [info] 18494#1626436: *31 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:23:06 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18551, reconfiguring
+2018/11/16 18:23:06 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:23:06 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:23:06 [notice] 16406#1626436: start worker processes
+2018/11/16 18:23:06 [notice] 16406#1626436: start worker process 18553
+2018/11/16 18:23:06 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:23:06 [notice] 18494#1626436: gracefully shutting down
+2018/11/16 18:23:06 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:23:06 [notice] 18494#1626436: exiting
+2018/11/16 18:23:06 [notice] 18494#1626436: exit
+2018/11/16 18:23:06 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18494
+2018/11/16 18:23:06 [notice] 16406#1626436: worker process 18494 exited with code 0
+2018/11/16 18:23:06 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:23:06 [notice] 16406#1626436: signal 23 (SIGIO) received from 18553
+2018/11/16 18:23:08 [info] 18553#1626436: *33 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:23:44 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18609, reconfiguring
+2018/11/16 18:23:44 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:23:44 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:23:44 [notice] 16406#1626436: start worker processes
+2018/11/16 18:23:44 [notice] 16406#1626436: start worker process 18611
+2018/11/16 18:23:44 [notice] 18553#1626436: gracefully shutting down
+2018/11/16 18:23:44 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:23:44 [notice] 18553#1626436: exiting
+2018/11/16 18:23:44 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:23:44 [notice] 18553#1626436: exit
+2018/11/16 18:23:44 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18553
+2018/11/16 18:23:44 [notice] 16406#1626436: worker process 18553 exited with code 0
+2018/11/16 18:23:44 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:23:44 [notice] 16406#1626436: signal 23 (SIGIO) received from 18611
+2018/11/16 18:23:45 [info] 18611#1626436: *35 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:26:27 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18656, reconfiguring
+2018/11/16 18:26:27 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:26:27 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:26:27 [notice] 16406#1626436: start worker processes
+2018/11/16 18:26:27 [notice] 16406#1626436: start worker process 18658
+2018/11/16 18:26:27 [notice] 18611#1626436: gracefully shutting down
+2018/11/16 18:26:27 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:26:27 [notice] 18611#1626436: exiting
+2018/11/16 18:26:27 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:26:27 [notice] 18611#1626436: exit
+2018/11/16 18:26:27 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18611
+2018/11/16 18:26:27 [notice] 16406#1626436: worker process 18611 exited with code 0
+2018/11/16 18:26:27 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:26:27 [notice] 16406#1626436: signal 23 (SIGIO) received from 18658
+2018/11/16 18:26:28 [info] 18658#1626436: *37 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:26:44 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18696, reconfiguring
+2018/11/16 18:26:44 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:26:44 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:26:44 [notice] 16406#1626436: start worker processes
+2018/11/16 18:26:44 [notice] 16406#1626436: start worker process 18698
+2018/11/16 18:26:45 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:26:45 [notice] 18658#1626436: gracefully shutting down
+2018/11/16 18:26:45 [notice] 18658#1626436: exiting
+2018/11/16 18:26:45 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:26:45 [notice] 18658#1626436: exit
+2018/11/16 18:26:45 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18658
+2018/11/16 18:26:45 [notice] 16406#1626436: worker process 18658 exited with code 0
+2018/11/16 18:26:45 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:26:45 [notice] 16406#1626436: signal 23 (SIGIO) received from 18698
+2018/11/16 18:26:46 [info] 18698#1626436: *39 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:28:14 [notice] 16406#1626436: signal 1 (SIGHUP) received from 18749, reconfiguring
+2018/11/16 18:28:14 [notice] 16406#1626436: reconfiguring
+2018/11/16 18:28:14 [notice] 16406#1626436: using the "kqueue" event method
+2018/11/16 18:28:14 [notice] 16406#1626436: start worker processes
+2018/11/16 18:28:14 [notice] 16406#1626436: start worker process 18750
+2018/11/16 18:28:14 [notice] 18698#1626436: gracefully shutting down
+2018/11/16 18:28:14 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:28:14 [notice] 18698#1626436: exiting
+2018/11/16 18:28:14 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:28:14 [notice] 18698#1626436: exit
+2018/11/16 18:28:14 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18698
+2018/11/16 18:28:14 [notice] 16406#1626436: worker process 18698 exited with code 0
+2018/11/16 18:28:14 [notice] 16406#1626436: signal 23 (SIGIO) received
+2018/11/16 18:28:14 [notice] 16406#1626436: signal 23 (SIGIO) received from 18750
+2018/11/16 18:28:15 [info] 18750#1626436: *41 kevent() reported that client 127.0.0.1 closed keepalive connection
