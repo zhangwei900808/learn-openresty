@@ -1,0 +1,35 @@
+2018/11/15 18:04:03 [error] 55956#1808790: *1 failed to load external Lua file "./lua/access_check.lua": cannot open ./lua/access_check.lua: No such file or directory, client: 127.0.0.1, server: _, request: "GET /api/test HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/15 18:08:42 [error] 56369#1808790: *3 failed to load external Lua file "./lua/test..lua": cannot open ./lua/test..lua: No such file or directory, client: 127.0.0.1, server: _, request: "GET /api/test.do HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/15 18:08:55 [error] 56369#1808790: *4 failed to load external Lua file "./lua/test..lua": cannot open ./lua/test..lua: No such file or directory, client: 127.0.0.1, server: _, request: "GET /api/test.do HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/15 18:09:39 [emerg] 56678#1828220: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2018/11/15 18:09:39 [emerg] 56678#1828220: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2018/11/15 18:09:39 [emerg] 56678#1828220: bind() to 0.0.0.0:6699 failed (48: Address already in use)
+2018/11/16 11:15:31 [error] 5201#379476: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:80):3: only one argument is expected, but got 2
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture_multi'
+	content_by_lua(nginx.conf:80):3: in function <content_by_lua(nginx.conf:80):1>, client: 127.0.0.1, server: _, request: "GET /app/test_queue HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/16 11:17:14 [error] 5201#379476: *14 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:80):3: only one argument is expected, but got 2
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture_multi'
+	content_by_lua(nginx.conf:80):3: in function <content_by_lua(nginx.conf:80):1>, client: 127.0.0.1, server: _, request: "GET /app/test_queue HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/16 11:20:41 [error] 5481#379476: *18 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):3: only one argument is expected, but got 2
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture_multi'
+	content_by_lua(nginx.conf:78):3: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: _, request: "GET /app/test_queue HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/16 11:20:55 [error] 5506#379476: *19 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:75):3: only one argument is expected, but got 2
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture_multi'
+	content_by_lua(nginx.conf:75):3: in function <content_by_lua(nginx.conf:75):1>, client: 127.0.0.1, server: _, request: "GET /app/test_queue HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/16 11:22:22 [error] 5531#379476: *20 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:80):3: the query argument 0 is not a table, but a string
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture_multi'
+	content_by_lua(nginx.conf:80):3: in function <content_by_lua(nginx.conf:80):1>, client: 127.0.0.1, server: _, request: "GET /app/test_queue HTTP/1.1", host: "127.0.0.1:6699"
+2018/11/16 13:40:49 [emerg] 4327#379476: unexpected "}" in ././conf/nginx.conf:96
+2018/11/16 13:42:07 [emerg] 4327#379476: unexpected "}" in ././conf/nginx.conf:96
+2018/11/16 13:42:36 [emerg] 4327#379476: unexpected "}" in ././conf/nginx.conf:96
+2018/11/16 13:46:38 [error] 6272#779752: *3 open() "./html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:6699", referrer: "http://127.0.0.1:6699/foo"
