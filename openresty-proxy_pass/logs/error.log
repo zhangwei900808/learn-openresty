@@ -1,0 +1,17 @@
+2018/11/21 09:24:00 [info] 120#0: *93 client 127.0.0.1 closed keepalive connection
+2018/11/21 09:24:46 [notice] 126#0: signal process started
+2018/11/21 09:24:46 [notice] 38#0: signal 1 (SIGHUP) received from 126, reconfiguring
+2018/11/21 09:24:46 [notice] 38#0: reconfiguring
+2018/11/21 09:24:46 [notice] 38#0: using the "epoll" event method
+2018/11/21 09:24:46 [notice] 38#0: start worker processes
+2018/11/21 09:24:46 [notice] 38#0: start worker process 127
+2018/11/21 09:24:46 [notice] 120#0: gracefully shutting down
+2018/11/21 09:24:46 [notice] 120#0: exiting
+2018/11/21 09:24:46 [notice] 120#0: exit
+2018/11/21 09:24:46 [notice] 38#0: signal 17 (SIGCHLD) received from 120
+2018/11/21 09:24:46 [notice] 38#0: worker process 120 exited with code 0
+2018/11/21 09:24:46 [notice] 38#0: signal 29 (SIGIO) received
+2018/11/21 09:24:48 [info] 127#0: *94 client 127.0.0.1 closed keepalive connection
+2018/11/21 09:24:59 [info] 127#0: *97 client 127.0.0.1 closed keepalive connection
+2018/11/21 09:25:11 [info] 127#0: *98 client 127.0.0.1 closed keepalive connection
+2018/11/21 09:26:11 [info] 127#0: *96 client 127.0.0.1 closed keepalive connection
