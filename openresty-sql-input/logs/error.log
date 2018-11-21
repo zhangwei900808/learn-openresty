@@ -230,3 +230,199 @@
 2018/11/16 18:28:14 [notice] 16406#1626436: signal 23 (SIGIO) received
 2018/11/16 18:28:14 [notice] 16406#1626436: signal 23 (SIGIO) received from 18750
 2018/11/16 18:28:15 [info] 18750#1626436: *41 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/16 18:30:52 [notice] 18750#1626436: signal 15 (SIGTERM) received from 1, exiting
+2018/11/16 18:30:52 [notice] 16406#1626436: signal 15 (SIGTERM) received from 1, exiting
+2018/11/16 18:30:52 [info] 18750#1626436: kevent() failed (4: Interrupted system call)
+2018/11/16 18:30:52 [notice] 18750#1626436: exiting
+2018/11/16 18:30:52 [notice] 18750#1626436: exit
+2018/11/16 18:30:52 [notice] 16406#1626436: signal 20 (SIGCHLD) received from 18750
+2018/11/16 18:30:52 [notice] 16406#1626436: worker process 18750 exited with code 0
+2018/11/16 18:30:52 [notice] 16406#1626436: exit
+2018/11/19 09:19:45 [notice] 1999#110667: using the "kqueue" event method
+2018/11/19 09:19:45 [notice] 1999#110667: openresty/1.13.6.2
+2018/11/19 09:19:45 [notice] 1999#110667: built by clang 10.0.0 (clang-1000.10.44.4)
+2018/11/19 09:19:45 [notice] 1999#110667: OS: Darwin 18.2.0
+2018/11/19 09:19:45 [notice] 1999#110667: hw.ncpu: 8
+2018/11/19 09:19:45 [notice] 1999#110667: net.inet.tcp.sendspace: 131072
+2018/11/19 09:19:45 [notice] 1999#110667: kern.ipc.somaxconn: 128
+2018/11/19 09:19:45 [notice] 1999#110667: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2018/11/19 09:19:45 [notice] 2000#110667: start worker processes
+2018/11/19 09:19:45 [notice] 2000#110667: start worker process 2001
+2018/11/19 09:20:08 [error] 2001#110667: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:20:19 [error] 2001#110667: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:20:19 [error] 2001#110667: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:20:25 [error] 2001#110667: *7 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:20:56 [notice] 2000#110667: signal 15 (SIGTERM) received from 2075, exiting
+2018/11/19 09:20:56 [notice] 2001#110667: exiting
+2018/11/19 09:20:56 [notice] 2000#110667: signal 23 (SIGIO) received from 2001
+2018/11/19 09:20:56 [notice] 2001#110667: exit
+2018/11/19 09:20:56 [notice] 2000#110667: signal 20 (SIGCHLD) received from 2001
+2018/11/19 09:20:56 [notice] 2000#110667: worker process 2001 exited with code 0
+2018/11/19 09:20:56 [notice] 2000#110667: exit
+2018/11/19 09:21:34 [notice] 2129#115394: using the "kqueue" event method
+2018/11/19 09:21:34 [notice] 2129#115394: openresty/1.13.6.2
+2018/11/19 09:21:34 [notice] 2129#115394: built by clang 10.0.0 (clang-1000.10.44.4)
+2018/11/19 09:21:34 [notice] 2129#115394: OS: Darwin 18.2.0
+2018/11/19 09:21:34 [notice] 2129#115394: hw.ncpu: 8
+2018/11/19 09:21:34 [notice] 2129#115394: net.inet.tcp.sendspace: 131072
+2018/11/19 09:21:34 [notice] 2129#115394: kern.ipc.somaxconn: 128
+2018/11/19 09:21:34 [notice] 2129#115394: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2018/11/19 09:21:34 [notice] 2130#115394: start worker processes
+2018/11/19 09:21:34 [notice] 2130#115394: start worker process 2131
+2018/11/19 09:21:48 [error] 2131#115394: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:21:49 [error] 2131#115394: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:21:54 [error] 2131#115394: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:21:58 [error] 2131#115394: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:22:24 [error] 2131#115394: *9 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:23:25 [error] 2131#115394: *11 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:23:49 [error] 2131#115394: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:23:55 [error] 2131#115394: *15 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:24:45 [error] 2131#115394: *17 "./html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:15 [info] 2131#115394: *17 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/19 09:25:20 [error] 2131#115394: *18 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:23 [error] 2131#115394: *20 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:25 [error] 2131#115394: *22 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:26 [error] 2131#115394: *24 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:27 [error] 2131#115394: *26 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:31 [error] 2131#115394: *28 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:32 [error] 2131#115394: *30 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:33 [error] 2131#115394: *32 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:39 [error] 2131#115394: *34 "./html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:43 [error] 2131#115394: *34 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:43 [error] 2131#115394: *36 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:44 [error] 2131#115394: *38 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:25:49 [error] 2131#115394: *40 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:26:19 [error] 2131#115394: *42 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:93):63: ndk.set_var: directive "set_quote_sql" not found or does not use ndk_set_var_value
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	content_by_lua(nginx.conf:93):63: in function <content_by_lua(nginx.conf:93):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2018/11/19 09:26:24 [notice] 2130#115394: signal 1 (SIGHUP) received from 2563, reconfiguring
+2018/11/19 09:26:24 [notice] 2130#115394: reconfiguring
+2018/11/19 09:26:24 [notice] 2130#115394: using the "kqueue" event method
+2018/11/19 09:26:24 [notice] 2130#115394: start worker processes
+2018/11/19 09:26:24 [notice] 2130#115394: start worker process 2565
+2018/11/19 09:26:24 [notice] 2130#115394: signal 23 (SIGIO) received
+2018/11/19 09:26:24 [notice] 2130#115394: signal 23 (SIGIO) received
+2018/11/19 09:26:24 [notice] 2131#115394: gracefully shutting down
+2018/11/19 09:26:24 [notice] 2131#115394: exiting
+2018/11/19 09:26:24 [notice] 2131#115394: exit
+2018/11/19 09:26:24 [notice] 2130#115394: signal 20 (SIGCHLD) received from 2131
+2018/11/19 09:26:24 [notice] 2130#115394: worker process 2131 exited with code 0
+2018/11/19 09:26:24 [notice] 2130#115394: signal 23 (SIGIO) received
+2018/11/19 09:26:24 [notice] 2130#115394: signal 23 (SIGIO) received from 2565
+2018/11/19 09:26:28 [info] 2565#115394: *44 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/19 09:27:18 [notice] 2130#115394: signal 1 (SIGHUP) received from 2620, reconfiguring
+2018/11/19 09:27:18 [notice] 2130#115394: reconfiguring
+2018/11/19 09:27:18 [notice] 2130#115394: using the "kqueue" event method
+2018/11/19 09:27:18 [notice] 2130#115394: start worker processes
+2018/11/19 09:27:18 [notice] 2130#115394: start worker process 2622
+2018/11/19 09:27:18 [notice] 2130#115394: signal 23 (SIGIO) received
+2018/11/19 09:27:18 [notice] 2565#115394: gracefully shutting down
+2018/11/19 09:27:18 [notice] 2130#115394: signal 23 (SIGIO) received
+2018/11/19 09:27:18 [notice] 2565#115394: exiting
+2018/11/19 09:27:18 [notice] 2565#115394: exit
+2018/11/19 09:27:18 [notice] 2130#115394: signal 20 (SIGCHLD) received from 2565
+2018/11/19 09:27:18 [notice] 2130#115394: worker process 2565 exited with code 0
+2018/11/19 09:27:18 [notice] 2130#115394: signal 23 (SIGIO) received
+2018/11/19 09:27:18 [notice] 2130#115394: signal 23 (SIGIO) received from 2622
+2018/11/19 09:27:20 [info] 2622#115394: *46 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/19 09:30:05 [notice] 2130#115394: signal 15 (SIGTERM) received from 2942, exiting
+2018/11/19 09:30:05 [notice] 2622#115394: exiting
+2018/11/19 09:30:05 [notice] 2130#115394: signal 23 (SIGIO) received from 2622
+2018/11/19 09:30:05 [notice] 2622#115394: exit
+2018/11/19 09:30:05 [notice] 2130#115394: signal 20 (SIGCHLD) received from 2622
+2018/11/19 09:30:05 [notice] 2130#115394: worker process 2622 exited with code 0
+2018/11/19 09:30:05 [notice] 2130#115394: exit
