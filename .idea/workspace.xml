@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65bea24-9684-4085-9507-3eb1d9d1c117" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openresty-proxy_pass/conf/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openresty-proxy_pass/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/openresty-proxy_pass/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openresty-proxy_pass/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/openresty-proxy_pass/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openresty-proxy_pass/logs/nginx.pid" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openresty-proxy_pass/conf/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1118">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state relative-caret-position="780">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -420,8 +420,8 @@
     <entry file="file://$PROJECT_DIR$/conf/nginx.conf" />
     <entry file="file://$PROJECT_DIR$/openresty-proxy_pass/conf/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state relative-caret-position="780">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
         </state>
       </provider>
     </entry>

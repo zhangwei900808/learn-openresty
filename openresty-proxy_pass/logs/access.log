@@ -69,3 +69,7 @@
 127.0.0.1 - - [21/Nov/2018:09:24:59 +0000] "GET /test?data=*&^%$ HTTP/1.1" 200 59 "-" "curl/7.29.0"
 127.0.0.1 - - [21/Nov/2018:09:25:11 +0000] "POST /spe_md5 HTTP/1.1" 200 43 "-" "lua-resty-http/0.12 (Lua) ngx_lua/10013"
 127.0.0.1 - - [21/Nov/2018:09:25:11 +0000] "GET /test?data=123 HTTP/1.1" 200 59 "-" "curl/7.29.0"
+127.0.0.1 - - [21/Nov/2018:09:30:22 +0000] "POST /spe_md5 HTTP/1.1" 500 199 "-" "lua-resty-http/0.12 (Lua) ngx_lua/10013"
+172.17.0.1 - - [21/Nov/2018:09:30:22 +0000] "GET /test HTTP/1.1" 500 601 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36"
+127.0.0.1 - - [21/Nov/2018:09:30:25 +0000] "POST /spe_md5 HTTP/1.1" 500 199 "-" "lua-resty-http/0.12 (Lua) ngx_lua/10013"
+172.17.0.1 - - [21/Nov/2018:09:30:25 +0000] "GET /test HTTP/1.1" 500 601 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36"

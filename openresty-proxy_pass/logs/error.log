@@ -15,3 +15,19 @@
 2018/11/21 09:24:59 [info] 127#0: *97 client 127.0.0.1 closed keepalive connection
 2018/11/21 09:25:11 [info] 127#0: *98 client 127.0.0.1 closed keepalive connection
 2018/11/21 09:26:11 [info] 127#0: *96 client 127.0.0.1 closed keepalive connection
+2018/11/21 09:30:22 [error] 127#0: *102 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:47):4: attempt to concatenate local 'data' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:47): in function <content_by_lua(nginx.conf:47):1>, client: 127.0.0.1, server: , request: "POST /spe_md5 HTTP/1.1", host: "127.0.0.1:81"
+2018/11/21 09:30:25 [error] 127#0: *105 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:47):4: attempt to concatenate local 'data' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:47): in function <content_by_lua(nginx.conf:47):1>, client: 127.0.0.1, server: , request: "POST /spe_md5 HTTP/1.1", host: "127.0.0.1:81"
+2018/11/21 09:31:25 [info] 127#0: *104 client timed out (110: Connection timed out) while waiting for request, client: 172.17.0.1, server: 0.0.0.0:80
+2018/11/21 09:47:55 [notice] 133#0: signal process started
+2018/11/21 09:47:55 [notice] 38#0: signal 15 (SIGTERM) received from 133, exiting
+2018/11/21 09:47:55 [notice] 127#0: exiting
+2018/11/21 09:47:55 [notice] 127#0: exit
+2018/11/21 09:47:55 [notice] 38#0: signal 17 (SIGCHLD) received from 127
+2018/11/21 09:47:55 [notice] 38#0: worker process 127 exited with code 0
+2018/11/21 09:47:55 [notice] 38#0: exit

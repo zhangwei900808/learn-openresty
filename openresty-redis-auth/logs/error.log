@@ -1,0 +1,95 @@
+2018/11/21 17:59:03 [notice] 9605#1884132: signal 1 (SIGHUP) received from 9739, reconfiguring
+2018/11/21 17:59:03 [notice] 9605#1884132: reconfiguring
+2018/11/21 17:59:03 [notice] 9605#1884132: using the "kqueue" event method
+2018/11/21 17:59:03 [notice] 9605#1884132: start worker processes
+2018/11/21 17:59:03 [notice] 9605#1884132: start worker process 9741
+2018/11/21 17:59:03 [notice] 9605#1884132: signal 23 (SIGIO) received
+2018/11/21 17:59:03 [notice] 9606#1884132: gracefully shutting down
+2018/11/21 17:59:03 [notice] 9605#1884132: signal 23 (SIGIO) received
+2018/11/21 17:59:03 [notice] 9606#1884132: exiting
+2018/11/21 17:59:03 [notice] 9606#1884132: exit
+2018/11/21 17:59:03 [notice] 9605#1884132: signal 20 (SIGCHLD) received from 9606
+2018/11/21 17:59:03 [notice] 9605#1884132: worker process 9606 exited with code 0
+2018/11/21 17:59:03 [notice] 9605#1884132: signal 23 (SIGIO) received
+2018/11/21 17:59:03 [notice] 9605#1884132: signal 23 (SIGIO) received from 9741
+2018/11/21 18:00:05 [notice] 9605#1884132: signal 1 (SIGHUP) received from 9819, reconfiguring
+2018/11/21 18:00:05 [notice] 9605#1884132: reconfiguring
+2018/11/21 18:00:05 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:00:05 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:00:05 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:00:05 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:00:05 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:00:05 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:00:05 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:00:05 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:00:05 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:00:05 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:00:05 [emerg] 9605#1884132: still could not bind()
+2018/11/21 18:03:17 [notice] 9605#1884132: signal 1 (SIGHUP) received from 9931, reconfiguring
+2018/11/21 18:03:17 [notice] 9605#1884132: reconfiguring
+2018/11/21 18:03:17 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:17 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:03:17 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:17 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:03:17 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:17 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:03:17 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:17 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:03:17 [emerg] 9605#1884132: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:17 [notice] 9605#1884132: try again to bind() after 500ms
+2018/11/21 18:03:17 [emerg] 9605#1884132: still could not bind()
+2018/11/21 18:03:29 [notice] 9605#1884132: signal 15 (SIGTERM) received from 10000, exiting
+2018/11/21 18:03:29 [notice] 9605#1884132: signal 23 (SIGIO) received from 9741
+2018/11/21 18:03:29 [notice] 9741#1884132: exiting
+2018/11/21 18:03:29 [notice] 9741#1884132: exit
+2018/11/21 18:03:29 [notice] 9605#1884132: signal 20 (SIGCHLD) received from 9741
+2018/11/21 18:03:29 [notice] 9605#1884132: worker process 9741 exited with code 0
+2018/11/21 18:03:29 [notice] 9605#1884132: exit
+2018/11/21 18:03:49 [emerg] 10091#1935453: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:49 [notice] 10091#1935453: try again to bind() after 500ms
+2018/11/21 18:03:49 [emerg] 10091#1935453: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:49 [notice] 10091#1935453: try again to bind() after 500ms
+2018/11/21 18:03:49 [emerg] 10091#1935453: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:49 [notice] 10091#1935453: try again to bind() after 500ms
+2018/11/21 18:03:49 [emerg] 10091#1935453: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:49 [notice] 10091#1935453: try again to bind() after 500ms
+2018/11/21 18:03:49 [emerg] 10091#1935453: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:03:49 [notice] 10091#1935453: try again to bind() after 500ms
+2018/11/21 18:03:49 [emerg] 10091#1935453: still could not bind()
+2018/11/21 18:04:34 [emerg] 10178#1938534: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:04:34 [notice] 10178#1938534: try again to bind() after 500ms
+2018/11/21 18:04:34 [emerg] 10178#1938534: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:04:34 [notice] 10178#1938534: try again to bind() after 500ms
+2018/11/21 18:04:34 [emerg] 10178#1938534: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:04:34 [notice] 10178#1938534: try again to bind() after 500ms
+2018/11/21 18:04:34 [emerg] 10178#1938534: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:04:34 [notice] 10178#1938534: try again to bind() after 500ms
+2018/11/21 18:04:34 [emerg] 10178#1938534: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2018/11/21 18:04:34 [notice] 10178#1938534: try again to bind() after 500ms
+2018/11/21 18:04:34 [emerg] 10178#1938534: still could not bind()
+2018/11/21 18:04:45 [notice] 10205#1939001: using the "kqueue" event method
+2018/11/21 18:04:45 [notice] 10205#1939001: openresty/1.13.6.2
+2018/11/21 18:04:45 [notice] 10205#1939001: built by clang 10.0.0 (clang-1000.10.44.4)
+2018/11/21 18:04:45 [notice] 10205#1939001: OS: Darwin 18.2.0
+2018/11/21 18:04:45 [notice] 10205#1939001: hw.ncpu: 8
+2018/11/21 18:04:45 [notice] 10205#1939001: net.inet.tcp.sendspace: 131072
+2018/11/21 18:04:45 [notice] 10205#1939001: kern.ipc.somaxconn: 128
+2018/11/21 18:04:45 [notice] 10205#1939001: getrlimit(RLIMIT_NOFILE): 10496:9223372036854775807
+2018/11/21 18:04:45 [notice] 10206#1939001: start worker processes
+2018/11/21 18:04:45 [notice] 10206#1939001: start worker process 10207
+2018/11/21 18:04:53 [info] 10207#1939001: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/21 18:06:00 [notice] 10206#1939001: signal 1 (SIGHUP) received from 10344, reconfiguring
+2018/11/21 18:06:00 [notice] 10206#1939001: reconfiguring
+2018/11/21 18:06:00 [notice] 10206#1939001: using the "kqueue" event method
+2018/11/21 18:06:00 [notice] 10206#1939001: start worker processes
+2018/11/21 18:06:00 [notice] 10206#1939001: start worker process 10346
+2018/11/21 18:06:00 [notice] 10206#1939001: signal 23 (SIGIO) received
+2018/11/21 18:06:00 [notice] 10207#1939001: gracefully shutting down
+2018/11/21 18:06:00 [notice] 10206#1939001: signal 23 (SIGIO) received
+2018/11/21 18:06:00 [notice] 10207#1939001: exiting
+2018/11/21 18:06:00 [notice] 10207#1939001: exit
+2018/11/21 18:06:00 [notice] 10206#1939001: signal 20 (SIGCHLD) received from 10207
+2018/11/21 18:06:00 [notice] 10206#1939001: worker process 10207 exited with code 0
+2018/11/21 18:06:00 [notice] 10206#1939001: signal 23 (SIGIO) received
+2018/11/21 18:06:00 [notice] 10206#1939001: signal 23 (SIGIO) received from 10346
+2018/11/21 18:06:03 [info] 10346#1939001: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
