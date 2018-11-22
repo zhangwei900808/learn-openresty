@@ -70,3 +70,19 @@ coroutine 0:
 2018/11/22 17:28:37 [notice] 3926#1344862: signal 23 (SIGIO) received
 2018/11/22 17:28:37 [notice] 3926#1344862: signal 23 (SIGIO) received from 4532
 2018/11/22 17:28:38 [info] 4532#1344862: *11 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/22 18:00:01 [notice] 3926#1344862: signal 1 (SIGHUP) received from 6488, reconfiguring
+2018/11/22 18:00:01 [notice] 3926#1344862: reconfiguring
+2018/11/22 18:00:01 [notice] 3926#1344862: using the "kqueue" event method
+2018/11/22 18:00:01 [notice] 3926#1344862: start worker processes
+2018/11/22 18:00:01 [notice] 3926#1344862: start worker process 6490
+2018/11/22 18:00:01 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 18:00:01 [notice] 4532#1344862: gracefully shutting down
+2018/11/22 18:00:01 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 18:00:01 [notice] 4532#1344862: exiting
+2018/11/22 18:00:01 [notice] 4532#1344862: exit
+2018/11/22 18:00:01 [notice] 3926#1344862: signal 20 (SIGCHLD) received from 4532
+2018/11/22 18:00:01 [notice] 3926#1344862: worker process 4532 exited with code 0
+2018/11/22 18:00:01 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 18:00:01 [notice] 3926#1344862: signal 23 (SIGIO) received from 6490
+2018/11/22 18:00:01 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 18:00:03 [info] 6490#1344862: *13 kevent() reported that client 127.0.0.1 closed keepalive connection
