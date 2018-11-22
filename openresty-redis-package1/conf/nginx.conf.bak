@@ -1,0 +1,65 @@
+worker_processes 1;
+
+error_log logs/error.log info;
+events {
+    worker_connections 1024;
+}
+
+http{
+    server{
+        listen 8080;
+        location /test{
+            content_by_lua_block {
+                local redis = require "resty.redis"
+                local red = redis:new()
+
+                red:set_timeout(1000)
+                local ok, err = red:connect('127.0.0.1', 6379)
+                if not ok then
+                    ngx.say('failed to connect: ', err)
+                    return
+                end
+
+                local count
+                count, err = red:get_reused_times()
+                if 0 == count then
+                    --设置redis密码
+                    ok, err = red:auth('zhangwei')
+                    if not ok then
+                        ngx.say("failed to auth: ", err)
+                        return
+                    end
+                elseif err then
+                    ngx.say("failed to get reused times: ", err)
+                    return
+                end
+
+                ok, err = red:set('dog', 'an animal')
+                if not ok then
+                    ngx.say('failed to set dog: ', err)
+                end
+                ngx.say('set result: ', ok)
+
+                local res, err = red:get('dog')
+
+                if not res then
+                    ngx.say('failed to get dog: ', err)
+                    return
+                end
+
+                if res == ngx.null then
+                    ngx.say('dog not found.')
+                    return
+                end
+
+                ngx.say('dog: ', res)
+
+                local ok, err = red:set_keepalive(10000, 100)
+                if not ok then
+                    ngx.say('failed to set keepalive: ', err)
+                    return
+                end
+            }
+        }
+    }
+}

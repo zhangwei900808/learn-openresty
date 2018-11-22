@@ -93,3 +93,11 @@
 2018/11/21 18:06:00 [notice] 10206#1939001: signal 23 (SIGIO) received
 2018/11/21 18:06:00 [notice] 10206#1939001: signal 23 (SIGIO) received from 10346
 2018/11/21 18:06:03 [info] 10346#1939001: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/21 18:30:54 [notice] 10346#1939001: signal 15 (SIGTERM) received from 1, exiting
+2018/11/21 18:30:54 [notice] 10206#1939001: signal 15 (SIGTERM) received from 1, exiting
+2018/11/21 18:30:54 [info] 10346#1939001: kevent() failed (4: Interrupted system call)
+2018/11/21 18:30:54 [notice] 10346#1939001: exiting
+2018/11/21 18:30:54 [notice] 10346#1939001: exit
+2018/11/21 18:30:54 [notice] 10206#1939001: signal 20 (SIGCHLD) received from 10346
+2018/11/21 18:30:54 [notice] 10206#1939001: worker process 10346 exited with code 0
+2018/11/21 18:30:54 [notice] 10206#1939001: exit

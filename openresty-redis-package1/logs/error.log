@@ -1,0 +1,72 @@
+2018/11/22 17:15:46 [error] 3927#1344862: *2 lua entry thread aborted: runtime error: error loading module 'lua.redis' from file './lua/redis.lua':
+	./lua/redis.lua:103: '=' expected near 'reqs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:28):2: in function <content_by_lua(nginx.conf:28):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8083"
+2018/11/22 17:16:08 [notice] 3926#1344862: signal 1 (SIGHUP) received from 4028, reconfiguring
+2018/11/22 17:16:08 [notice] 3926#1344862: reconfiguring
+2018/11/22 17:16:08 [notice] 3926#1344862: using the "kqueue" event method
+2018/11/22 17:16:08 [notice] 3926#1344862: start worker processes
+2018/11/22 17:16:08 [notice] 3926#1344862: start worker process 4030
+2018/11/22 17:16:08 [notice] 3927#1344862: gracefully shutting down
+2018/11/22 17:16:08 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:16:08 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:16:08 [notice] 3927#1344862: exiting
+2018/11/22 17:16:08 [notice] 3927#1344862: exit
+2018/11/22 17:16:08 [notice] 3926#1344862: signal 20 (SIGCHLD) received from 3927
+2018/11/22 17:16:08 [notice] 3926#1344862: worker process 3927 exited with code 0
+2018/11/22 17:16:08 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:16:08 [notice] 3926#1344862: signal 23 (SIGIO) received from 4030
+2018/11/22 17:16:09 [info] 4030#1344862: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/22 17:16:59 [info] 4030#1344862: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/22 17:26:33 [notice] 3926#1344862: signal 1 (SIGHUP) received from 4406, reconfiguring
+2018/11/22 17:26:33 [notice] 3926#1344862: reconfiguring
+2018/11/22 17:26:33 [notice] 3926#1344862: using the "kqueue" event method
+2018/11/22 17:26:33 [notice] 3926#1344862: start worker processes
+2018/11/22 17:26:33 [notice] 3926#1344862: start worker process 4408
+2018/11/22 17:26:33 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:26:33 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:26:33 [notice] 4030#1344862: gracefully shutting down
+2018/11/22 17:26:33 [notice] 4030#1344862: exiting
+2018/11/22 17:26:33 [notice] 4030#1344862: exit
+2018/11/22 17:26:33 [notice] 3926#1344862: signal 20 (SIGCHLD) received from 4030
+2018/11/22 17:26:33 [notice] 3926#1344862: worker process 4030 exited with code 0
+2018/11/22 17:26:33 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:26:33 [notice] 3926#1344862: signal 23 (SIGIO) received from 4408
+2018/11/22 17:26:35 [error] 4408#1344862: *7 lua entry thread aborted: runtime error: ./lua/redis.lua:94: attempt to index global 'red' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/redis.lua: in function 'connect_mod'
+	./lua/redis.lua:198: in function 'set'
+	content_by_lua(nginx.conf:28):5: in function <content_by_lua(nginx.conf:28):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8083"
+2018/11/22 17:27:53 [notice] 3926#1344862: signal 1 (SIGHUP) received from 4480, reconfiguring
+2018/11/22 17:27:53 [notice] 3926#1344862: reconfiguring
+2018/11/22 17:27:53 [notice] 3926#1344862: using the "kqueue" event method
+2018/11/22 17:27:53 [notice] 3926#1344862: start worker processes
+2018/11/22 17:27:53 [notice] 3926#1344862: start worker process 4482
+2018/11/22 17:27:53 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:27:53 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:27:53 [notice] 4408#1344862: gracefully shutting down
+2018/11/22 17:27:53 [notice] 4408#1344862: exiting
+2018/11/22 17:27:53 [notice] 4408#1344862: exit
+2018/11/22 17:27:53 [notice] 3926#1344862: signal 20 (SIGCHLD) received from 4408
+2018/11/22 17:27:53 [notice] 3926#1344862: worker process 4408 exited with code 0
+2018/11/22 17:27:53 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:27:53 [notice] 3926#1344862: signal 23 (SIGIO) received from 4482
+2018/11/22 17:27:54 [info] 4482#1344862: *9 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/22 17:28:37 [notice] 3926#1344862: signal 1 (SIGHUP) received from 4530, reconfiguring
+2018/11/22 17:28:37 [notice] 3926#1344862: reconfiguring
+2018/11/22 17:28:37 [notice] 3926#1344862: using the "kqueue" event method
+2018/11/22 17:28:37 [notice] 3926#1344862: start worker processes
+2018/11/22 17:28:37 [notice] 3926#1344862: start worker process 4532
+2018/11/22 17:28:37 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:28:37 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:28:37 [notice] 4482#1344862: gracefully shutting down
+2018/11/22 17:28:37 [notice] 4482#1344862: exiting
+2018/11/22 17:28:37 [notice] 4482#1344862: exit
+2018/11/22 17:28:37 [notice] 3926#1344862: signal 20 (SIGCHLD) received from 4482
+2018/11/22 17:28:37 [notice] 3926#1344862: worker process 4482 exited with code 0
+2018/11/22 17:28:37 [notice] 3926#1344862: signal 23 (SIGIO) received
+2018/11/22 17:28:37 [notice] 3926#1344862: signal 23 (SIGIO) received from 4532
+2018/11/22 17:28:38 [info] 4532#1344862: *11 kevent() reported that client 127.0.0.1 closed keepalive connection
