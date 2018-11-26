@@ -86,3 +86,11 @@ coroutine 0:
 2018/11/22 18:00:01 [notice] 3926#1344862: signal 23 (SIGIO) received from 6490
 2018/11/22 18:00:01 [notice] 3926#1344862: signal 23 (SIGIO) received
 2018/11/22 18:00:03 [info] 6490#1344862: *13 kevent() reported that client 127.0.0.1 closed keepalive connection
+2018/11/22 18:18:55 [notice] 3926#1344862: signal 15 (SIGTERM) received from 1, exiting
+2018/11/22 18:18:55 [notice] 6490#1344862: signal 15 (SIGTERM) received from 1, exiting
+2018/11/22 18:18:55 [info] 6490#1344862: kevent() failed (4: Interrupted system call)
+2018/11/22 18:18:55 [notice] 6490#1344862: exiting
+2018/11/22 18:18:55 [notice] 6490#1344862: exit
+2018/11/22 18:18:55 [notice] 3926#1344862: signal 20 (SIGCHLD) received from 6490
+2018/11/22 18:18:55 [notice] 3926#1344862: worker process 6490 exited with code 0
+2018/11/22 18:18:55 [notice] 3926#1344862: exit

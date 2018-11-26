@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65bea24-9684-4085-9507-3eb1d9d1c117" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/openresty-redis-package1/lua/redis.lua" beforeDir="false" afterPath="$PROJECT_DIR$/openresty-redis-package1/lua/redis.lua" afterDir="false" />
-    </list>
+    <list default="true" id="a65bea24-9684-4085-9507-3eb1d9d1c117" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="1888186988">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -130,7 +128,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="854" />
   </component>
@@ -373,7 +371,7 @@
     <option name="totallyTimeSpent" value="9225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17525035" />
