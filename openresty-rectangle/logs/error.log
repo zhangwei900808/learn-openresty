@@ -1,1 +1,27 @@
 2018/11/27 08:45:30 [notice] 66#0: signal process started
+2018/11/28 06:31:48 [error] 42#0: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:20):6: module 'lua-package' not found:
+	no field package.preload['lua-package']
+	no file '/opt/openresty/site/lualib/lua-package.ljbc'
+	no file '/opt/openresty/site/lualib/lua-package/init.ljbc'
+	no file '/opt/openresty/lualib/lua-package.ljbc'
+	no file '/opt/openresty/lualib/lua-package/init.ljbc'
+	no file '/opt/openresty/site/lualib/lua-package.lua'
+	no file '/opt/openresty/site/lualib/lua-package/init.lua'
+	no file '/opt/openresty/lualib/lua-package.lua'
+	no file '/opt/openresty/lualib/lua-package/init.lua'
+	no file './lua-package.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta3/lua-package.lua'
+	no file '/usr/local/share/lua/5.1/lua-package.lua'
+	no file '/usr/local/share/lua/5.1/lua-package/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/lua-package.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/lua-package/init.lua'
+	no file '/opt/openresty/site/lualib/lua-package.so'
+	no file '/opt/openresty/lualib/lua-package.so'
+	no file './lua-package.so'
+	no file '/usr/local/lib/lua/5.1/lua-package.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/lua-package.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:20):6: in function <content_by_lua(nginx.conf:20):1>, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
